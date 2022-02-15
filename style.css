@@ -12,6 +12,30 @@ html {
 
 /* MY STYLE */
 
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    border: 2px dashed darkblue;
+}
 
+header {
+    min-height: 60px;
+    background: teal;
+}
 
+main {
+    flex-grow: 1;
+    background: salmon;
+}
+
+footer {
+    min-height: 40px;
+    background: lightsteelblue;
+}
