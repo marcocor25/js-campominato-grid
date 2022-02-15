@@ -10,6 +10,11 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+}
+
 /* MY STYLE */
 
 body {
@@ -22,7 +27,6 @@ body {
     width: 80%;
     height: 100%;
     margin: 0 auto;
-    border: 2px dashed darkblue;
 }
 
 header {
@@ -38,4 +42,24 @@ main {
 footer {
     min-height: 40px;
     background: lightsteelblue;
+}
+
+.header_content {
+    display: flex;
+    align-items: center;
+}
+
+.logo_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo_wrapper h1 {
+    font-size: 26px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
 }
