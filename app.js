@@ -27,14 +27,17 @@ playButton.addEventListener('click', function () {
 
         console.log('Scegli un livello di difficoltà!');
 
+        mainContainer.style.background = `#708090`;
+
     } else if (difficulty == 'Easy') {
 
         console.log(difficulty);
 
-        for (let i = 0; i < 100; i++) {
+        for (let i = 1; i <= 100; i++) {
             const cellElement = document.createElement('div');
             cellElement.classList.add('cell');
             cellElement.style.width = `calc(100% / 10)`;
+            cellElement.innerHTML = `${i}`;
             gridContainer.append(cellElement);
         }
 
@@ -44,10 +47,11 @@ playButton.addEventListener('click', function () {
 
         console.log(difficulty);
 
-        for (let i = 0; i < 81; i++) {
+        for (let i = 1; i <= 81; i++) {
             const cellElement = document.createElement('div');
             cellElement.classList.add('cell');
             cellElement.style.width = `calc(100% / 9)`;
+            cellElement.innerHTML = `${i}`;
             gridContainer.append(cellElement);
         }
 
@@ -57,10 +61,11 @@ playButton.addEventListener('click', function () {
 
         console.log(difficulty);
 
-        for (let i = 0; i < 49; i++) {
+        for (let i = 1; i <= 49; i++) {
             const cellElement = document.createElement('div');
             cellElement.classList.add('cell');
             cellElement.style.width = `calc(100% / 7)`;
+            cellElement.innerHTML = `${i}`;
             gridContainer.append(cellElement);
         }
 
