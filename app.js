@@ -1,3 +1,8 @@
-// TEST
+// COLLEGO IL GRID-CONTAINER
+const gridContainer = document.querySelector('.grid_container');
+console.log(gridContainer);
 
-console.log('Ciao a tutti!');
+// CREO ELEMENTO SULL'HTML
+const cellElement = document.createElement('div');
+cellElement.classList.add('cell');
+console.log(cellElement);

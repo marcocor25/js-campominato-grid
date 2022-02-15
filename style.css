@@ -90,7 +90,10 @@ footer {
     flex-wrap: wrap;
     width: 400px;
     height: 400px;
+    padding: 10px;
+    border-radius: 3px;
     border: 1px solid black;
+    background: white;
 }
 
 .cell {
@@ -98,6 +101,7 @@ footer {
     align-items: center;
     justify-content: center;
     aspect-ratio: 1;
+    border-radius: 3px;
     border: 1px solid black;
 }
 
